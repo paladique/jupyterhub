@@ -7,6 +7,7 @@ import socket
 from urllib.parse import urlparse
 import warnings
 
+from tornado import gen
 from traitlets import (
     HasTraits, Instance, Integer, Unicode,
     default, observe,
